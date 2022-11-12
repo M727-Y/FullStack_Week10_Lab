@@ -1,0 +1,42 @@
+.row{
+    margin-left: 10%;
+    padding: 1em;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+input{
+    flex:1;
+    margin:.5em;
+    height: 2em;
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+select{
+    flex:1;
+    margin:5px;
+    
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+label{
+    margin-top: .5em;
+    height: 2em;
+    width: 10%;
+    text-align: left;
+}
+.agree{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 10em;
+    height: 3em;
+}
+.result{
+    margin: 5%;
+    border: 2px solid green;
+  }
